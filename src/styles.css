@@ -10,3 +10,7 @@
 .pl-3{
     padding-left: 15px;
 }
+
+html{
+    scroll-behavior: smooth;
+}

@@ -1,7 +1,7 @@
 #img-bg{
     background-image: url('https://spinoff.com.br/wp-content/uploads/bob-esponja-1-1200x720.png');
-
-    min-height: 695px;
+    height: 100vh;
+    /*min-height: 695px;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
