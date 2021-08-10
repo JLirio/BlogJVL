@@ -23,6 +23,10 @@ export class AuthService {
 
   }
 
+  getByIdUser(id:number): Observable<User>{
+     return this.http.get<User>(`https://jvlbloogs.herokuapp.com/usuarios/${id}`)
+  }
+
   logado(){
     let ok:boolean = false
 
@@ -31,7 +35,7 @@ export class AuthService {
     }
 
 
-    return ok 
+    return ok
   }
 
 }
